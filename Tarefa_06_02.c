@@ -3,7 +3,7 @@
 #include "hardware/gpio.h"
 #include "hardware/pwm.h"
 
-#define PWM_PIN 12  // Defina o GPIO a ser usado para PWM
+#define PWM_PIN 22  // Defina o GPIO a ser usado para PWM
 
 uint32_t rotation = 500;
 
