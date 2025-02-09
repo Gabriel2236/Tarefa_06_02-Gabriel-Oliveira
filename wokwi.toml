@@ -1,0 +1,11 @@
+[wokwi]
+version = 1
+firmware = 'build/Tarefa_06_02.uf2'
+elf = 'build/Tarefa_06_02.elf'
+
+[[gpio]]
+pin = 22
+function = "PWM"
+
+[console]
+baudrate = 115200
