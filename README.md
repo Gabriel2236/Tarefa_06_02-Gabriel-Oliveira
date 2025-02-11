@@ -10,6 +10,28 @@ Este projeto demonstra como controlar um servo motor utilizando o Raspberry Pi P
 - Ferramenta Educacional BitDogLab
 - Cabos jumper
 
+##Funcionamento
+
+-O código inicializa o Raspberry Pi Pico e configura a GPIO 22 para PWM.
+
+-Ajusta a frequência de PWM para 50Hz e configura o ciclo ativo para 20ms.
+
+-Define três posições do servo motor (0 graus, 90 graus e 180 graus) com ciclos ativos específicos e aguarda 5 segundos em cada posição.
+
+-Implementa uma rotina de movimentação periódica do servo motor entre 0 e 180 graus, com incrementos suaves de ciclo ativo de ±5µs e atraso de ajuste de 10ms.
+
+-Adicione a configuração e controle do LED RGB utilizando a Ferramenta Educacional BitDogLab para observar o comportamento da iluminação.
+
+##Observações
+
+Certifique-se de realizar as conexões corretamente para evitar danos aos componentes.
+
+Ajuste os valores de ciclo ativo conforme necessário para garantir um controle preciso do servo motor.
+
+Experimente com o LED RGB para observar como a iluminação é afetada pelo sinal PWM.
+
+Para observar o funcionamento segue o link do video:  https://drive.google.com/file/d/17CFgZj5qp0TRknFJXeWi_QdTbdMKo8UR/view?usp=sharing
+
 ## Código
 
 ```c
@@ -71,24 +93,3 @@ int main() {
 }
 
 
-##Funcionamento
-
--O código inicializa o Raspberry Pi Pico e configura a GPIO 22 para PWM.
-
--Ajusta a frequência de PWM para 50Hz e configura o ciclo ativo para 20ms.
-
--Define três posições do servo motor (0 graus, 90 graus e 180 graus) com ciclos ativos específicos e aguarda 5 segundos em cada posição.
-
--Implementa uma rotina de movimentação periódica do servo motor entre 0 e 180 graus, com incrementos suaves de ciclo ativo de ±5µs e atraso de ajuste de 10ms.
-
--Adicione a configuração e controle do LED RGB utilizando a Ferramenta Educacional BitDogLab para observar o comportamento da iluminação.
-
-##Observações
-
-Certifique-se de realizar as conexões corretamente para evitar danos aos componentes.
-
-Ajuste os valores de ciclo ativo conforme necessário para garantir um controle preciso do servo motor.
-
-Experimente com o LED RGB para observar como a iluminação é afetada pelo sinal PWM.
-
-Para observar o funcionamento segue o link do video:  https://drive.google.com/file/d/17CFgZj5qp0TRknFJXeWi_QdTbdMKo8UR/view?usp=sharing
