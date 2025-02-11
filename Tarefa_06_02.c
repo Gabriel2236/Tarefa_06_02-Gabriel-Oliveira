@@ -43,12 +43,12 @@ int main() {
 
         
 
-        for(rotation; rotation <= 2400; rotation += 5){
+        for (rotation = 500; rotation <= 2400; rotation += 5) {
             set_pwm_level(PWM_PIN, rotation);
             sleep_ms(10);
         }
-
-        for(rotation; rotation >= 500; rotation -= 5){
+    
+        for (rotation = 2400; rotation >= 500; rotation -= 5) {
             set_pwm_level(PWM_PIN, rotation);
             sleep_ms(10);
         }
