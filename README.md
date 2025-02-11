@@ -30,7 +30,7 @@ Ajuste os valores de ciclo ativo conforme necessário para garantir um controle 
 
 Experimente com o LED RGB para observar como a iluminação é afetada pelo sinal PWM.
 
-Para observar o funcionamento segue o link do video:  https://drive.google.com/file/d/17CFgZj5qp0TRknFJXeWi_QdTbdMKo8UR/view?usp=sharing
+Para observar o funcionamento segue o link do video:  https://drive.google.com/file/d/1ZIENxDoZCWCyj-F2_BYQoGVZ24zdbbaq/view?usp=sharing
 
 ## Código
 
