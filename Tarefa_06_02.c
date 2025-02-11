@@ -24,7 +24,7 @@ int main() {
     pwm_set_clkdiv(slice_num, 125.0f);
 
     // Configura o valor de envolvimento de PWM para 20ms
-    pwm_set_wrap(slice_num, 40000);
+    pwm_set_wrap(slice_num, 20000);
 
     // Define o ciclo ativo para 2.400µs (180 graus)
     set_pwm_level(PWM_PIN, 2400);
